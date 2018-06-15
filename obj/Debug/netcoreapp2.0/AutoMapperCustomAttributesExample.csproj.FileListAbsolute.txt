@@ -9,3 +9,13 @@ c:\users\pashk\source\repos\AutoMapperCustomAttributesExample\AutoMapperCustomAt
 c:\users\pashk\source\repos\AutoMapperCustomAttributesExample\AutoMapperCustomAttributesExample\bin\Debug\netcoreapp2.0\AutoMapperCustomAttributesExample.pdb
 c:\users\pashk\source\repos\AutoMapperCustomAttributesExample\AutoMapperCustomAttributesExample\obj\Debug\netcoreapp2.0\AutoMapperCustomAttributesExample.dll
 c:\users\pashk\source\repos\AutoMapperCustomAttributesExample\AutoMapperCustomAttributesExample\obj\Debug\netcoreapp2.0\AutoMapperCustomAttributesExample.pdb
+C:\Users\pashk\Desktop\AutoMapper\bin\Debug\netcoreapp2.0\AutoMapperCustomAttributesExample.deps.json
+C:\Users\pashk\Desktop\AutoMapper\bin\Debug\netcoreapp2.0\AutoMapperCustomAttributesExample.runtimeconfig.json
+C:\Users\pashk\Desktop\AutoMapper\bin\Debug\netcoreapp2.0\AutoMapperCustomAttributesExample.runtimeconfig.dev.json
+C:\Users\pashk\Desktop\AutoMapper\bin\Debug\netcoreapp2.0\AutoMapperCustomAttributesExample.dll
+C:\Users\pashk\Desktop\AutoMapper\bin\Debug\netcoreapp2.0\AutoMapperCustomAttributesExample.pdb
+C:\Users\pashk\Desktop\AutoMapper\obj\Debug\netcoreapp2.0\AutoMapperCustomAttributesExample.csproj.CoreCompileInputs.cache
+C:\Users\pashk\Desktop\AutoMapper\obj\Debug\netcoreapp2.0\AutoMapperCustomAttributesExample.AssemblyInfoInputs.cache
+C:\Users\pashk\Desktop\AutoMapper\obj\Debug\netcoreapp2.0\AutoMapperCustomAttributesExample.AssemblyInfo.cs
+C:\Users\pashk\Desktop\AutoMapper\obj\Debug\netcoreapp2.0\AutoMapperCustomAttributesExample.dll
+C:\Users\pashk\Desktop\AutoMapper\obj\Debug\netcoreapp2.0\AutoMapperCustomAttributesExample.pdb

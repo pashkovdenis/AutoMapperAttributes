@@ -27,17 +27,26 @@ namespace AutoMapperCustomAttributesExample
             if (types.Count() == 0)
                 throw new InvalidOperationException("Target Type Not Found For given source");
             var target = types.FirstOrDefault();
-            var map = new MapperConfiguration(x => x.CreateMap(typeof(T1), target));
+
+            var map = new MapperConfiguration(x => x.CreateMap(typeof(T1), target)
+            .ForAllMembers(xd => xd.Condition( (object src ,object dst ,object srcObj)=>srcObj!=null))); 
+            
+
+
             if (target.GetProperties().Any(p => p.GetCustomAttributes<MapFieldName>().Count() > 0))
             {
                 var expression = new MapperConfigurationExpression();
-                var exp = expression.CreateMap(typeof(T1), target);
+                var exp = expression.CreateMap(typeof(T1), target)
+                   ;
+                exp.ForAllMembers(xd => xd.Condition((object src, object dst, object srcObj) => srcObj != null)); 
+
                 foreach (var pro in target.GetProperties().Where(p => p.GetCustomAttributes<MapFieldName>().Count() > 0))
                 {
                     foreach (var attrDescriptor in pro.GetCustomAttributes<MapFieldName>())
                     {
                         var sourceField = attrDescriptor.From;
                         var targetField = attrDescriptor.Name;
+                        if (sourceField!=null) 
                         exp.ForMember(targetField, m => m.MapFrom(sourceField));
                     }
                 }

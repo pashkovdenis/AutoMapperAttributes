@@ -9,7 +9,8 @@ namespace AutoMapperCustomAttributesExample.Models
     [MapTarget(typeof(Source))]
     public class Destination
     {
-        public string CustomerName { set; get; }
+        public string CustomerName { set; get; } = "Default"; 
+
 
 
         public int Salary { set; get; }
